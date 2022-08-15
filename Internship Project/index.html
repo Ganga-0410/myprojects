@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="index.css">
+     
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--<title>Admin Dashboard Panel</title>--> 
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <!--<img src="images/logo.png" alt="">-->
+            </div>
+
+            <span class="logo_name">CodingLab</span>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="#">
+                    <i class='bx bxs-grid-alt' ></i>
+                    <span class="link-name">Dashboard</span>
+                </a></li>
+                <li><a href="#">
+                    <i class='bx bx-code-alt'></i>
+                    <span class="link-name">Courses</span>
+                </a></li>
+                <li><a href="#">
+                    <i class='bx bxs-grid-alt' ></i>
+                    <span class="link-name">Chats</span>
+                </a></li>
+                <li><a href="#">
+                    <i class='bx bxs-calendar'></i>
+                    <span class="link-name">Schedule</span>
+                </a></li>
+                <li><a href="#">
+                    <i class='bx bx-bookmarks' ></i>
+                    <span class="link-name">Bookmarks</span>
+                </a></li>
+                <li><a href="#">
+                    <i class='bx bx-cog' ></i>
+                    <span class="link-name">Settings</span>
+                </a></li>
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="#">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>
+                </a>
+
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+            </div>
+            
+            <!--<img src="images/profile.jpg" alt="">-->
+        </div>
+
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-tachometer-fast-alt"></i>
+                    <span class="text">Dashboard</span>
+                </div>
+
+                <div class="boxes">
+                    <div class="box box1">
+                        <i class='bx bxl-python'></i>
+                        <span class="text">Python</span>
+                        <span class="number">10 lessons</span>
+                    </div>
+                    <div class="box box2">
+                        <i class='bx bxl-html5' ></i>
+                        <span class="text">HTML & CSS</span>
+                        <span class="number">12 lessons</span>
+                    </div>
+                    <div class="box box3">
+                        <i class='bx bx-code-alt'></i>
+                        <span class="text">JavaScript</span>
+                        <span class="number">10 lessons</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity">
+                <div class="title">
+                    <i class='bx bx-code-alt'></i>
+                    <span class="text">My Courses</span>
+                </div>
+
+                <div class="activity-data">
+                    <div class="data names">
+                        <span class="data-title">CoursesName</span>
+                        <span class="data-list">Web Designing</span>
+                        <span class="data-list">C++</span>
+                        <span class="data-list">Data With Pythone</span>
+                        <span class="data-list">Pratima Shahi</span>
+                        <span class="data-list">HTML CSS Basics</span>
+                        <span class="data-list">JavaScript Basics</span>
+                        <span class="data-list">Algorithms</span>
+                    </div>
+                    <div class="data email">
+                        <span class="data-title">Start</span>
+                        <span class="data-list">May 12</span>
+                        <span class="data-list">May 14</span>
+                        <span class="data-list">prakashhai@gmail.com</span>
+                        <span class="data-list">May 17</span>
+                        <span class="data-list">May 26</span>
+                        <span class="data-list">May 30</span>
+                        <span class="data-list">April 4</span>
+                    </div>
+                    <div class="data joined">
+                        <span class="data-title">Rating</span>
+                        <span class="data-list">4.8</span>
+                        <span class="data-list">4.4</span>
+                        <span class="data-list">4.6</span>
+                        <span class="data-list">4.7</span>
+                        <span class="data-list">4.8</span>
+                        <span class="data-list">4.0</span>
+                        <span class="data-list">4.5</span>
+                    </div>
+                    <div class="data type">
+                        <span class="data-title">Level</span>
+                        <span class="data-list">Intermediate</span>
+                        <span class="data-list">Medium</span>
+                        <span class="data-list">Easy</span>
+                        <span class="data-list">Intermediate</span>
+                        <span class="data-list">Intermediate</span>
+                        <span class="data-list">Easy</span>
+                        <span class="data-list">Medium</span>
+                    </div>
+                    <div class="data status">
+                        <span class="data-title">Duration</span>
+                        <span class="data-list">4 weeks</span>
+                        <span class="data-list">3 weeks</span>
+                        <span class="data-list">5 weeks</span>
+                        <span class="data-list">4 weeks</span>
+                        <span class="data-list">4 weeks</span>
+                        <span class="data-list">3 weeks</span>
+                        <span class="data-list">5 weeks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
